@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IoLogoFacebook } from "react-icons/io";
 import { Link } from "react-router-dom";
 
@@ -38,7 +38,7 @@ const Login = () => {
               href="https://www.facebook.com/login/"
               className="flex justify-center items-center gap-1"
             >
-              <IoLogoFacebook size={22} className="text-[#385185]" />{" "}
+              <IoLogoFacebook size={22} className="text-[#385185]" />
               <span className="font-semibold text-[#385185] text-sm">
                 Log in with Facebook
               </span>
@@ -54,10 +54,10 @@ const Login = () => {
 
         <div className="md:border mt-3 py-4">
           <p>
-            Don't have an account?{" "}
+            Don&paos;t have an account?
             <Link to="/signup" className="text-[#0095F6]">
               Sign up
-            </Link>{" "}
+            </Link>
           </p>
         </div>
       </div>
